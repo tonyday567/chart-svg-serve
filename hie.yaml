@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./app/chart-svg-serve.hs"
+      component: "chart-svg-serve:exe:chart-svg-serve"
+    - path: "./src"
+      component: "chart-svg-serve:lib"
+    - path: "./test/chart-svg-serve.hs"
+      component: "chart-svg-serve:test:chart-svg-serve"

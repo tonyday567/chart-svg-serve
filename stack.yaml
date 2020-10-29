@@ -1,0 +1,14 @@
+resolver: nightly-2020-06-25
+
+packages:
+  - .
+  - ../numhask
+  - ../numhask-space
+  - ../chart-svg
+  - ../web-rep
+  - ../box
+  - ../box-socket
+
+extra-deps: [ ]
+  #- numhask-0.7.0.0
+  #- numhask-space-0.7.0
